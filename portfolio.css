@@ -1,0 +1,155 @@
+nav{
+	/* position: fixed; */
+	width: 100vw;
+	margin: 1px solid balck;
+	padding: 0px;
+	font-size: 25px;
+	list-style-type: none;
+	height: 40px;
+	overflow: hidden;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgb(8, 177, 244);
+	position: fixed;
+	
+}
+
+nav li{
+	float: left;
+	padding: 5px;
+	text-decoration: none;
+	
+}
+
+nav a{
+	text-align: center;
+	padding: 15px 25px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: white;
+}
+
+
+nav :hover{
+	/* background-color: rgb(14, 230, 122); */
+	color: black;
+
+}
+
+.active{
+	background-color: green;
+	color: white;
+	
+}
+
+.active:hover{
+	background-color: black;
+	color: white;
+}
+
+.align-right{
+	float: right;
+}
+
+body{
+	font-size: 40px;
+	color: white;
+	float: left;
+	margin: 0px;
+}
+
+.porta{
+	margin-top: 10px;
+	margin-left: 150px;
+	height: 250px;
+	font-size: 30px;
+	color: black;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	line-height: 0px;
+}
+
+.portc{
+	max-width: 55%;
+	margin-left: 150px;
+	margin-top: 100px;
+}
+
+.logoimage{
+	width: 30px;
+	height: 30px;
+}
+
+.profileimage{
+	border-radius: 25%;
+	display: inline-block;
+  	max-width: 80%;
+  	transform: scale(.95);
+  	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-ms-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+}
+.profileimage:hover{
+	transform: scale(1.2);
+	}
+
+
+.button{
+		background-color: rgba(11, 11, 232, 0.878);
+    	color: white;
+       	font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 15px;
+        height: 40px;
+        width: 140px;
+        margin-left: 90px;
+}
+
+
+#education {
+	padding: 50pxo ;
+	color: black;
+	text-align: center;
+	align-content: center;
+	width: 100vw;
+  }
+  
+  .education-item {
+	margin-bottom: 30px;
+  }
+  
+  .education-item h3 {
+	font-size: 30px;
+	margin-bottom: 5px;
+  }
+  
+  .education-item p {
+	font-size: 24px;
+	color: black;
+  }
+  
+
+  table{
+	width: 100vw;
+	height: 400px;
+  }
+
+.skilla{
+	color: black;
+	display: block;
+	margin-top: 0px;
+	width: 100%;
+	word-spacing: 10px;
+}
+
+
+.abouta{
+	color: black;
+	display: block;
+	margin-top: 0px;
+	width: 50%;
+	background-color: aqua;
+	word-spacing: 10px;
+}

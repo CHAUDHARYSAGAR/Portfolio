@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  </head>
+  <body background="bg.jpg">
+    <nav>
+      <div>
+        <li><a class="active" href="portflio.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </div>
+      <div class="align-right">
+        <li style="display: flex; align-items: center; margin-left: auto">
+          <img src="s logo.jpg" style="width: 40px" /><a href="#"> Sagar</a>
+        </li>
+      </div>
+    </nav>
+
+    <br />
+
+    <div style="display: flex; align-items: center">
+      <div class="porta">
+        <h1>Hi There,</h1>
+        <br />
+        <h2 style="display: inline; line-height: 10px; float: left">I'm</h2>
+        <h2 style="display: inline; line-height: 90px; color: blue">
+          &nbsp;Sagar chaudhary
+        </h2>
+        <br />
+        <h2 style="display: inline; line-height: 10px; float: left">
+          Web Designer
+        </h2>
+        <br />
+
+        <button class="button" onclick="TestsFunction()">
+          About Me&nbsp;&nbsp;<img src="down-arrow.png" style="width: 12%;">
+        </button>
+        <br />
+
+        <h2 style="display: none; line-height: 10px; float: left" id="test">
+          <a href="https://www.linkedin.com/in/sagar-chaudhary1/"
+            ><img src="linkdin.png" style="width: 30px" /></a
+          >&nbsp;
+          <a href="https://github.com/CHAUDHARYSAGAR"
+            ><img src="github.png" style="width: 30px" /></a
+          >&nbsp;
+          <a href="https://leetcode.com/chaudharysagar/"
+            ><img src="leetcode.png" style="width: 30px" /></a
+          >&nbsp;
+          <a href="https://www.hackerrank.com/Sagarchaudhary51"
+            ><img src="hackerrank.webp" style="width: 30px" /></a
+          >&nbsp;
+          <a href="https://auth.geeksforgeeks.org/user/sagarchaud5eys/practice"
+            ><img src="gfg.jpg" style="width: 30px" /></a
+          >&nbsp;
+          <a href="https://www.instagram.com/sagarchaudhary446/"
+            ><img src="insta.png" style="width: 30px" /></a
+          >&nbsp;
+          <a href="https://www.facebook.com/profile.php?id=100010577746069"
+            ><img src="facebook.png" style="width: 30px"
+          /></a>
+        </h2>
+      </div>
+
+      <div class="portc">
+        <img class="profileimage" src="profile.jpg" />
+      </div>
+    </div>
+
+
+    <script>
+      function TestsFunction() {
+      var T = document.getElementById("test");
+      if(T.style.display == "none"){
+          T.style.display = "block";
+      }
+      else{
+          T.style.display = "none";
+      }
+  
+      }
+  </script>
+  
+  </body>
+</html>
